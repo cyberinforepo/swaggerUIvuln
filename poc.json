@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/cyberinforepo/swaggerUIvuln/main/poc.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/cyberinforepo/swaggerUIvuln/main/poc.yaml",
+            "name": "BancoInterPOC"
+        }
+    ]
+}
