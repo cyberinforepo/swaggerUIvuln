@@ -1,0 +1,34 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "Please login first"
+  },
+  "host": "kk8dxsr36vyeblan1k1jm0zi69c00qof.oastify.com",
+  "paths": {
+    "/{Username}/{Password}": {
+      "post": {
+        "summary": "Logs in",
+        "parameters": [
+          {
+            "name": "Username",
+            "required": true,
+            "in": "path",
+            "type": "string"
+          },
+          {
+            "name": "Password",
+            "required": true,
+            "in": "path",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Login was successful"
+          }
+        }
+      }
+    }
+  }
+}
